@@ -7,13 +7,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 
+/**
+ * Server that provides trivia questions to clients.
+ */
 public class Server {
+    /**
+     * File path of question data.
+     */
     final String PATH = "questions.txt";
     final int AMOUNT_OF_QUESTIONS_PER_USER = 20;
     ArrayList<Question> questions;
-    //Shuffled questions link for every user
+
+    //Shuffled question lists for each client.
     HashMap<String , ArrayList<Question>> usersQuestionsLists;
 
+    /**
+     * Initialize server and load questions.
+     */
     public Server(){
         ServerSocket sc = null;
         Socket s = null;
@@ -42,6 +52,11 @@ public class Server {
         }
     }
 
+    /**
+     * Shuffle full question set into new list.
+     *
+     * @return Shuffled list of questions
+     */
     public ArrayList<Question> shuffleQuestions(){
         Random ran = new Random();
         ArrayList<Question> tempQuestions = new ArrayList<>(questions);
@@ -55,6 +70,9 @@ public class Server {
         return shuffleQuestions;
     }
 
+    /**
+     * Load questions from file into memory.
+     */
     public void makeQuestionsListFromFile(){
         questions = new ArrayList<>();
 
@@ -77,6 +95,9 @@ public class Server {
         }
     }
 
+    /**
+     * Main entry point to start server.
+     */
     public static void main(String[] args) {
         new Server();
     }

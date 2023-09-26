@@ -50,12 +50,15 @@ public class HelloController {
     Timeline timeline;
 
     public void initialize(){
+
+        // Initialize variables
         scoreNum = 0;
         isStarted = false;
         runOutOfTime = false;
 
         startScreen();
 
+        // Set up timer
         timeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> {
             timerSeconds--;
             timer.setText(timerSeconds + "");
@@ -66,8 +69,16 @@ public class HelloController {
         });
     }
 
+    /**
+     * Handle button click during game.
+     *
+     * If game not started, begins game.
+     * If started, checks selected answer and updates score.
+     * Gets next question and resets timer.
+     */
     @FXML
     void btnPressed(ActionEvent event) {
+        // Game logic
         if(!isStarted){
             isStarted = true;
             btn.setText("Choose");
@@ -101,14 +112,25 @@ public class HelloController {
                 answerBtn.getSelectedToggle().setSelected(false);
             }
         }
+
+        // Get and set next question
         new ClientThread(this, "127.0.0.1", question).start();
+
+        // Restart timer
         setTimer();
     }
 
+    /**
+     * Set the current question to display.
+     *
+     * @param question Question model to display
+     */
     public void setQuestion(Question question){
+        // Set question text
         this.question = question;
         String[] answers = this.question.getAllAnswersShuffled();
 
+        // Shuffle and set answer options
         Platform.runLater(() -> {
             qText.setText(question.getQuestion());
             qText.setFont(Font.font(12));
@@ -119,28 +141,41 @@ public class HelloController {
         });
     }
 
+    /**
+     * Stop game and display end screen.
+     */
     public void finishGame(){
+        // Hide answers
         answer1.setVisible(false);
         answer2.setVisible(false);
         answer3.setVisible(false);
         answer4.setVisible(false);
 
+        // Replace the choose button with reset button
         Platform.runLater(() -> {
             btn.setText("Restart");
             isStarted = false;
         });
 
+        // Set final score text
         qText.setText("Congratulation!! \nYou Finish The Game With " + scoreNum + " Points");
 
+        // Stop timer
         timeline.stop();
     }
+
+    /**
+     * Show initial start screen.
+     */
     public void startScreen(){
+        // Hide answers
         answer1.setVisible(false);
         answer2.setVisible(false);
         answer3.setVisible(false);
         answer4.setVisible(false);
 
-        qText.setText("Wellcom To My Trivia Game\n" +
+        // Set start text
+        qText.setText("Welcome To My Trivia Game\n" +
                 "You Will Need To Answer 20 Questions\n" +
                 "For Every Question You Get " + TIME_FOR_LAP + " Seconds To Answer\n" +
                 "If The Time Runs Out The Answer Is The Last One You Chose\n" +
@@ -149,15 +184,25 @@ public class HelloController {
         qText.setFont(Font.font(14));
     }
 
+    /**
+     * Reset and start question timer.
+     */
     public void setTimer(){
+        // Reset time and text
         timerSeconds = TIME_FOR_LAP;
         timeline.stop();
         timer.setText(timerSeconds + "");
 
+        // Start timeline
         timeline.setCycleCount(TIME_FOR_LAP);
         timeline.play();
     }
 
+    /**
+     * Update displayed score by specified amount.
+     *
+     * @param additionalScore Points to add to total score
+     */
     public void updateScore(int additionalScore){
         scoreNum += additionalScore;
         score.setText(scoreNum + "");
