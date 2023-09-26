@@ -40,3 +40,16 @@ Jupiter <br>
 Saturn <br>
 Mars <br>
 Venus <br>
+
+## Client Pictures 
+#### Welcome Screen
+![e68ff3b3-de62-425b-a881-e978435d2c25](https://github.com/gilkomi/OnlineTriviaGame/assets/144124159/47bc7a9d-61aa-4656-b8f2-909a6c0bebb2)
+
+#### Question Screen
+![ae94e9d8-4f76-469a-b6af-f79cbcd3c70e](https://github.com/gilkomi/OnlineTriviaGame/assets/144124159/42efa219-0823-4499-9fe4-699b095c66dc)
+![6f9dd626-113d-4df9-800b-3511c054ccb2](https://github.com/gilkomi/OnlineTriviaGame/assets/144124159/3dc904de-434f-44fa-af4d-a638ab19e63b)
+
+#### Game Finish Screen
+![7d5c7724-f146-4814-a0d5-980b650f6ec0](https://github.com/gilkomi/OnlineTriviaGame/assets/144124159/261bcab5-d8a6-4e29-8da4-040d289a3ec5)
+
+
