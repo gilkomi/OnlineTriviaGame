@@ -1,127 +1,125 @@
-asd
-
-איזה מכונות הם נקראות "רכב הזרם"?
-רכב חשמלי
-רכב בנזין
-רכב דיזל
-רכב פטרול
-איזו יער הוא הגדול ביותר בעולם?
-יער האמזונס
-יער בורנאו
-יער קונגו
-יער הגשם התיכון
-מהו האוקיינוס הגדול ביותר בעולם?
-האוקיינוס השקט
-האוקיינוס האטלנטי
-האוקיינוס ההודי
-האוקיינוס הצפוני
-מהו ההר הגבוה ביותר בעולם?
-הר אוורסט
-הר קילימנג'רו
-הר מאקינלי
-הר אקונקגואה
-איזה כוכב הוא הקרוב ביותר לכדור הארץ?
-השמש
-אלפא קנטאורי
-סיריוס
-פרוקסימה קנטאורי
-איזו מדינה היא הכי גדולה בעולם לפי שטח?
-רוסיה
-קנדה
-ארצות הברית
-סין
-איזו יער הוא הכי מתיח בעולם?
-יער האמזונס
-יער בורנאו
-יער טונדרה
-יער הפוקס
-איזו שפה מובאת הכי הרבה בעולם?
-סינית
-ספרדית
-אנגלית
-הינדית
-איזו מדינה היא הכי עשירה בעולם לפי מוצר גורס מקובל?
-ארצות הברית
-סין
-יפן
-גרמניה
-איזו עיר היא הכי צפונית בעולם?
-לירוויק
-רייקיאוויק
-אוסלו
-סטוקהולם
-מהו המאכל המסורתי ביותר ביפן?
-סושי
-ראמן
-סאשימי
-טמפורה
-מהו ההר הגבוה ביותר באירופה?
-הר אלברז
-הר רוזה
-הר מונט בלאנק
-הר איברסט
-מהו פרח הלוטוס מסמל במסורת המזרחית?
-טהרה
-אור
-חדווה
-חיים אינסופיים
-איזו מדינה מייצרת הכי הרבה קפה בעולם?
-ברזיל
-קולומביה
-וייטנם
-אתיופיה
-איזו יער הוא הכי יבש בעולם?
-יער הפוקס
-יער בורנאו
-יער קונגו
-יער הטונדרה
-מהו העיר הכי מסך בעולם?
-לאס וגאס
-ניו יורק
-הוליווד
-פריז
-איזו עיר היא בירת קפה בעולם?
-וינה
-ברלין
-רומא
-סיאול
-מהו העיר הכי גבוהה בעולם?
-לה פאז
-קיטו
-לה פלטה
-קוזקו
-איזה פרח מסמל את מלכות בריטניה?
-רוזה
-תפוז
-שזיף
-אפרסמון
-מהו פרח הסופי מסמל במסורת המזרחית?
-חופש
-טהרה
-אור
-שלווה
-מהו מספר הכוכבים בדגל ארה"ב?
+What machines are they called "current car"?
+electric car
+Gasoline vehicle
+diesel car
+Patrol car
+Which forest is the largest in the world?
+Amazon forest
+Borneo Forest
+Congo forest
+The middle rain forest
+What is the largest ocean in the world?
+Pacific
+Atlantic
+the Indian Ocean
+the northern ocean
+What is the highest mountain in the world?
+Mount Everest
+Mount Kilimanjaro
+Mount McKinley
+Mount Aconcagua
+Which planet is closest to Earth?
+the sun
+Alpha Cantouri
+Sirius
+Proxima Cantori
+Which country is the largest in the world by area?
+Russia
+Canada
+United States
+China
+Which forest is the most exciting in the world?
+Amazon forest
+Borneo Forest
+Tundra forest
+Fox Forest
+What language is spoken the most in the world?
+Chinese
+Spanish
+English
+Hindi
+Which country is the richest in the world according to a widely accepted product?
+United States
+China
+Japan
+Germany
+What is the northernmost city in the world?
+Lerwick
+Reykjavik
+Oslo
+Stockholm
+What is the most traditional food in Japan?
+Sushi
+ramen
+Sashimi
+Tempura
+What is the highest mountain in the world?
+Mount Alvarez
+Mount Rosa
+Mont Blanc mountain
+Mount Everest
+What does the lotus flower symbolize in the Eastern tradition?
+purity
+light
+happiness
+endless life
+Which country produces the most coffee in the world?
+Brazil
+Colombia
+Vietnam
+Ethiopia
+Which forest is the driest in the world?
+Fox Forest
+Borneo Forest
+Congo forest
+The tundra forest
+What is the screeniest city in the world?
+Las Vegas
+New York
+Hollywood
+Paris
+Which city is the coffee capital of the world?
+Vienna
+Berlin
+Rome
+Seoul
+What is the highest city in the world?
+La Paz
+Quito
+Her braces
+Cuzco
+What flower symbolizes the British monarchy?
+Rosa
+orange
+plum
+persimmon
+What does the Sufi flower symbolize in the Eastern tradition?
+freedom
+purity
+light
+peace
+What is the number of stars on the US flag?
 50
 48
 52
 45
-איזו תפוחי עץ הם הכי פופולריים ביותר בעולם?
-תפוח עץ רד דלישיוס
-תפוח עץ גרני סמית'
-תפוח עץ פינק ליידי
-תפוח עץ גולדן דלישיוס
-מהו מספר המדינות באפריקה?
+Which apples are the most popular in the world?
+Red Delicious apple
+granny smith apple
+Pink Lady apple
+Golden Delicious apple
+What is the number of countries in Africa?
 54
 50
 48
 60
-מהו הכי גבוה בעולם: ההר או הענן?
-הענן
-ההר
-שניהם באותו גובהה
-תלוי הקשר
-מהו גדוד עליון?
-ספרות פילוסופית
-קבוצת קרב מורכבת מחיילים מוסמכים
-אופן הפעלת גרמי רוח
-תיאור מדויק לעורף הגוף
+What is the highest in the world: the mountain or the cloud?
+the cloud
+the mountain
+Both are the same height
+Depends on the context
+What is a superior battalion?
+Philosophical literature
+A battle group consists of qualified soldiers
+How to activate spirit bodies
+Accurate description for the back of the body
