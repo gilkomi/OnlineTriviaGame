@@ -1,13 +1,48 @@
 # OnlineTriviaGame
 
 ## Description
-This is a client-server project for a trivia game using TCP communication. The game allows users to connect to the server, receive questions on various topics and answer them within a limited time.
+This is a client-server trivia game application including a Java server and JavaFX client communicating via TCP.
 
-The server is multi-threaded to handle multiple clients simultaneously. It reads questions and answers from a text file, randomly selects a question and sends it to the client along with 4 possible answers using TCP sockets.
+The server reads questions and answers from a text file, creates a random list of questions for each new client, and sends one question at a time to the client over a TCP socket.
 
-The client displays the question and answers in a JavaFX graphical interface and gives the user a limited time to choose an answer using a timer thread.
+The client displays the question and four possible answers in a JavaFX graphical user interface. The user has a time limit to choose an answer, and the application updates the score accordingly.
 
-For each correct answer the user gets 10 points. The game ends after 20 questions.
+The game ends after 20 questions.
+
+## Detailed Class Description
+* `Server`
+  - Loads questions and answers from text file
+  - Creates shuffled question list for each new client
+  - Opens TCP connection and listens for new clients
+  - Spawns a new thread for each client using `ServerThread`
+* `ServerThread`
+  - Handles communication with single client
+  - Sends one question to client over TCP socket
+  - Closes connection after sending question
+* `Client`
+  - Main client class
+  - Opens TCP connection to server
+  - Spawns new thread to receive each question using `ClientThread`
+* `ClientThread`
+  - Handles receiving single question from server
+  - Passes question to UI controller for display
+  - Closes connection after receiving question
+* `HelloController`
+  - JavaFX controller handling display and logic
+  - Receives questions from `ClientThread` and displays them
+  - Handles user clicks and selects answers
+  - Updates score based on answers
+* `Question`
+  - Simple model representing a single question
+
+## Technologies
+* Java 8
+* JavaFX
+* Scene Builder
+* Object-oriented programming
+* Multithreading
+* TCP communication
+
 
 ## Main Features
 * Java server listening on a fixed port that can handle many clients simultaneously using threads
